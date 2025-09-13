@@ -50,13 +50,13 @@ features:
     details: 触发[收到艾特消息], 结果[艾特发出 `有事直说 艾特我干嘛`]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/AutoAtReply
 
+  - title: 自动回复被拍@Hd
+    details: 触发[收到被拍消息], 结果[艾特发出 `干啥子`]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/AutoReplyPat
+
   - title: 进退群提醒@hd
     details: 监听群成员变动时自动发送对应内容
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/JoinAndLeftGroupTips
-
-  - title: 被拍自动回复@hd
-    details: 监听到被拍头时自动回复对应内容
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/PatAutoReply
 
   - title: 智能聊天@hd
     details: 需修改API域名,路径,密钥,模型,好友wxid等参数, 监听收到消息时自动聊天
