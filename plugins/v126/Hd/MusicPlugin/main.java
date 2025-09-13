@@ -24,7 +24,7 @@ void sendMusic(String talker, String title) {
                     shareMusic(talker, name, singer, link, url, thumbData, "wx8dd6ecd81906fd84");
                     file.delete();
                 }
-        
+
                 public void onError(Exception e) {
                     thumbData = null;
                     shareMusic(talker, name, singer, link, url, thumbData, "wx8dd6ecd81906fd84");

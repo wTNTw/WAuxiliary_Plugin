@@ -15,8 +15,8 @@ features:
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/TextToSpeech
 
   - title: 点歌插件@hd
-    details: 命令[/点歌 你好], 监听收到消息时自动发送歌曲卡片
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/MusicPlugin
+    details: 命令[/点歌 海阔天空], 触发[收到消息], 结果[发送歌曲卡片]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/MusicPlugin
 
   - title: 视频插件@hd
     details: 命令[/视频], 监听收到消息时自动发送视频
