@@ -58,9 +58,9 @@ features:
     details: 需修改API域名,路径,密钥,模型,好友wxid等参数, 监听收到消息时自动聊天
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/OpenAiChat
 
-  - title: 进退群提醒@hd
-    details: 监听群成员变动时自动发送对应内容
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/JoinAndLeftGroupTips
+  - title: 进退群提醒@Hd
+    details: 配置[群聊白名单Id], 触发[群成员变动], 结果[发出对应内容]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/JoinAndLeftGroupTips
 
   - title: 进群邀请@Hd
     details: 配置[群聊Id], 命令[进群], 触发[收到私聊消息], 结果[发出群聊邀请]
