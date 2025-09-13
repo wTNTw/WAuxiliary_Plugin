@@ -14,13 +14,17 @@ features:
     details: 配置[音色, 密钥], 命令[#tts 你好], 触发[长按发送按钮], 结果[发出语音]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/TextToSpeech
 
-  - title: 文转图@hd
+  - title: 文转图@Hd
     details: 命令[/作图 你好 世界], 触发[长按发送按钮], 结果[发出图片]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/TextToImg
 
-  - title: 点歌插件@hd
+  - title: 点歌插件@Hd
     details: 命令[/点歌 海阔天空], 触发[收到消息], 结果[发出歌曲卡片]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/MusicPlugin
+
+  - title: 历史今天@Hd
+    details: 命令[/历史今天], 触发[收到消息], 结果[发出历史今天图片]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/HistoryToday
 
   - title: 视频插件@Hd
     details: 命令[/视频], 触发[收到消息], 结果[发出视频]
@@ -41,10 +45,6 @@ features:
   - title: 自动回复艾特@hd
     details: 监听收到艾特消息时自动艾特询问干嘛
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/AutoReplyAt
-
-  - title: 历史今天@hd
-    details: 命令[/历史今天], 监听收到消息时自动发送历史今天图片
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/HistoryToday
 
   - title: 进退群提醒@hd
     details: 监听群成员变动时自动发送对应内容
