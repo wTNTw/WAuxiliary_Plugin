@@ -7,7 +7,9 @@ import me.hd.wauxv.plugin.api.callback.PluginCallBack;
 boolean onLongClickSendBtn(String text) {
     if (text.startsWith("#tts ")) {
         String str = text.substring(5);
-        String api = "https://www.yx520.ltd/API/wzzyy/silk.php?text=" + str + "&voice=518";
+        String voice = "2"; // 音色
+        String apikey = ""; // 密钥
+        String api = "https://www.yx520.ltd/API/wzzyy/silk.php?text=" + str + "&voice=" + voice + "&apikey=" + apikey;
         get(api, null, new PluginCallBack.HttpCallback() {
             public void onSuccess(int respCode, String respContent) {
                 JSONObject json = new JSONObject(respContent);

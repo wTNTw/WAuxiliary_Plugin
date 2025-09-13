@@ -7,12 +7,12 @@ hero:
 
 features:
   - title: 示例插件@Hd
-    details: 命令[echo], 触发[长按发送按钮], 结果[发送 Hello World 文本]
+    details: 命令[echo], 触发[长按发送按钮], 结果[发出 Hello World]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/DemoPlugin
 
-  - title: 文转音@hd
-    details: 命令[#tts 你好], 长按发送按钮将文本转语音发出
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/TextToSpeech
+  - title: 文转音@Hd
+    details: 配置[音色, 密钥], 命令[#tts 你好], 触发[长按发送按钮], 结果[发出语音]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/TextToSpeech
 
   - title: 点歌插件@hd
     details: 命令[/点歌 你好], 监听收到消息时自动发送歌曲卡片
