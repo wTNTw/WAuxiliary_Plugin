@@ -7,7 +7,7 @@ hero:
 
 features:
   - title: 示例插件@Hd
-    details: 命令[echo], 触发[长按发送按钮], 结果[发出 Hello World]
+    details: 命令[echo], 触发[长按发送按钮], 结果[发出 `Hello World`]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/DemoPlugin
 
   - title: 文转音@Hd
@@ -46,9 +46,9 @@ features:
     details: 命令[在吗/想我吗/爱我吗], 触发[收到消息], 结果[发出回复内容]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/AutoReply
 
-  - title: 自动回复艾特@hd
-    details: 监听收到艾特消息时自动艾特询问干嘛
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/AutoReplyAt
+  - title: 自动艾特回复@Hd
+    details: 触发[收到艾特消息], 结果[艾特发出 `有事直说 艾特我干嘛`]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/AutoAtReply
 
   - title: 进退群提醒@hd
     details: 监听群成员变动时自动发送对应内容
