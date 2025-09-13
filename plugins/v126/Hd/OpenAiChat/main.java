@@ -9,6 +9,11 @@ import java.util.Map;
 
 import me.hd.wauxv.plugin.api.callback.PluginCallBack;
 
+String host = "https://api.openai.com";
+String api = "/v1/chat/completions";
+String model = "模型名称";
+String key = "Bearer sk-密钥";
+
 List msgList = new ArrayList();
 
 void addSystemMsg(String content) {
@@ -29,14 +34,14 @@ addSystemMsg("从现在开始，你将扮演一个成人恋爱游戏中的女主
 
 Map getOpenAiParam(String content) {
     Map paramMap = new HashMap();
-    paramMap.put("model", "模型名称");
+    paramMap.put("model", model);
     addUserMsg(content);
     paramMap.put("messages", msgList);
     paramMap.put("temperature", 0.7);
     return paramMap;
 }
 
-Map getOpenAiHeader(String key) {
+Map getOpenAiHeader() {
     Map headerMap = new HashMap();
     headerMap.put("Content-Type", "application/json");
     headerMap.put("Authorization", key);
@@ -44,9 +49,9 @@ Map getOpenAiHeader(String key) {
 }
 
 void sendOpenAiResp(String talker, String content) {
-    post("https://api.openai.com" + "/v1/chat/completions",
+    post(host + api,
             getOpenAiParam(content),
-            getOpenAiHeader("sk-密钥"),
+            getOpenAiHeader(),
             new PluginCallBack.HttpCallback() {
                 public void onSuccess(int code, String content) {
                     JSONObject jsonObj = new JSONObject(content);
@@ -68,7 +73,7 @@ void sendOpenAiResp(String talker, String content) {
 void onHandleMsg(Object msgInfoBean) {
     if (msgInfoBean.isSend()) return;
     if (msgInfoBean.isText()) {
-        if (!msgInfoBean.getTalker().equals("私聊好友_wxid")) return;
+        if (!msgInfoBean.getTalker().equals("wxid_私聊好友")) return;
         sendOpenAiResp(msgInfoBean.getTalker(), msgInfoBean.getContent());
     }
 }

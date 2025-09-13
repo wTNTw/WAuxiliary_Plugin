@@ -54,10 +54,6 @@ features:
     details: 触发[收到被拍消息], 结果[艾特发出 `干啥子`]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/AutoReplyPat
 
-  - title: 智能聊天@hd
-    details: 需修改API域名,路径,密钥,模型,好友wxid等参数, 监听收到消息时自动聊天
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/OpenAiChat
-
   - title: 进退群提醒@Hd
     details: 配置[群聊白名单Id], 触发[群成员变动], 结果[发出对应内容]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/JoinAndLeftGroupTips
@@ -69,6 +65,10 @@ features:
   - title: 自动同意好友@Hd
     details: 触发[收到好友申请], 结果[自动通过]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/AutoAgreeFriend
+
+  - title: 智能聊天@Hd
+    details:  配置[Host,Api,模型,密钥,私聊好友Id等], 触发[收到私聊消息], 结果[自动聊天]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/OpenAiChat
 
   - title: 文生图@CkBcDD
     details: 命令[/作图 Corn Hub], 长按发送按钮生成并发送图片
