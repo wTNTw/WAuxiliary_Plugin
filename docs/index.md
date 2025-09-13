@@ -66,9 +66,9 @@ features:
     details: 配置[群聊Id], 命令[进群], 触发[收到私聊消息], 结果[发出群聊邀请]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/JoinGroupInvite
 
-  - title: 自动同意好友@hd
-    details: 监听收到好友申请时自动通过
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/AutoAgreeFriend
+  - title: 自动同意好友@Hd
+    details: 触发[收到好友申请], 结果[自动通过]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/AutoAgreeFriend
 
   - title: 文生图@CkBcDD
     details: 命令[/作图 Corn Hub], 长按发送按钮生成并发送图片
