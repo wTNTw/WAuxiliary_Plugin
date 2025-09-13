@@ -9,7 +9,6 @@ void sendMp4(String talker) {
     download(api, path, null, new PluginCallBack.DownloadCallback() {
         public void onSuccess(File file) {
             sendVideo(talker, file.getAbsolutePath());
-            file.delete();
         }
 
         public void onError(Exception e) {

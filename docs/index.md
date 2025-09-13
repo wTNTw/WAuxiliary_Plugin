@@ -15,12 +15,12 @@ features:
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/TextToSpeech
 
   - title: 点歌插件@hd
-    details: 命令[/点歌 海阔天空], 触发[收到消息], 结果[发送歌曲卡片]
+    details: 命令[/点歌 海阔天空], 触发[收到消息], 结果[发出歌曲卡片]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/MusicPlugin
 
-  - title: 视频插件@hd
-    details: 命令[/视频], 监听收到消息时自动发送视频
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/VideoPlugin
+  - title: 视频插件@Hd
+    details: 命令[/视频], 触发[收到消息], 结果[发出视频]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/VideoPlugin
 
   - title: 自动回复@hd
     details: 监听收到文本消息时自动回复对应内容
