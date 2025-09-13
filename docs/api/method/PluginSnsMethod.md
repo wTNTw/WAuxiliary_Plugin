@@ -1,7 +1,7 @@
 # 朋友圈方法
 
 ::: warning 警告
-本文档适用于 WAuxiliary v1.2.5 版本
+本文档适用于 WAuxiliary v1.2.6 版本
 :::
 
 ## 上传文字
@@ -21,9 +21,9 @@ void uploadTextAndPicList(String content, String picPath);
 
 void uploadTextAndPicList(String content, String picPath, String sdkId, String sdkAppName);
 
-void uploadTextAndPicList(String content, List picPathList);
+void uploadTextAndPicList(String content, List<String> picPathList);
 
-void uploadTextAndPicList(String content, List picPathList, String sdkId, String sdkAppName);
+void uploadTextAndPicList(String content, List<String> picPathList, String sdkId, String sdkAppName);
 
 void uploadTextAndPicList(JSONObject jsonObj);
 ```

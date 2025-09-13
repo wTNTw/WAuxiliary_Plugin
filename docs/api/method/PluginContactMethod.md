@@ -1,7 +1,7 @@
 # 联系方法
 
 ::: warning 警告
-本文档适用于 WAuxiliary v1.2.5 版本
+本文档适用于 WAuxiliary v1.2.6 版本
 :::
 
 ## 取当前登录Wxid
@@ -25,7 +25,7 @@ String getTargetTalker();
 ## 取好友列表
 
 ```java
-List getFriendList();
+List<FriendInfo> getFriendList();
 ```
 
 ## 取好友昵称
@@ -47,13 +47,13 @@ void getAvatarUrl(String username, boolean isBigHeadImg);
 ## 取群聊列表
 
 ```java
-List getGroupList();
+List<GroupInfo> getGroupList();
 ```
 
 ## 取群成员列表
 
 ```java
-List getGroupMemberList(String groupWxid);
+List<String> getGroupMemberList(String groupWxid);
 ```
 
 ## 取群成员数量
@@ -67,7 +67,7 @@ int getGroupMemberCount(String groupWxid);
 ```java
 void addChatroomMember(String chatroomId, String addMember);
 
-void addChatroomMember(String chatroomId, List addMemberList);
+void addChatroomMember(String chatroomId, List<String> addMemberList);
 ```
 
 ## 邀请群成员
@@ -75,7 +75,7 @@ void addChatroomMember(String chatroomId, List addMemberList);
 ```java
 void inviteChatroomMember(String chatroomId, String inviteMember);
 
-void inviteChatroomMember(String chatroomId, List inviteMemberList);
+void inviteChatroomMember(String chatroomId, List<String> inviteMemberList);
 ```
 
 ## 移除群成员
@@ -83,7 +83,7 @@ void inviteChatroomMember(String chatroomId, List inviteMemberList);
 ```java
 void delChatroomMember(String chatroomId, String delMember);
 
-void delChatroomMember(String chatroomId, List delMemberList);
+void delChatroomMember(String chatroomId, List<String> delMemberList);
 ```
 
 ## 通过好友申请
@@ -100,5 +100,5 @@ void verifyUser(String wxid, String ticket, int scene, int privacy);
 
 void modifyContactLabelList(String username, String labelName);
 
-void modifyContactLabelList(String username, List labelNames);
+void modifyContactLabelList(String username, List<String> labelNames);
 ```

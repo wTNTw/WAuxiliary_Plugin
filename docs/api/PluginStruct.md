@@ -2,7 +2,7 @@
 # 相关结构
 
 ::: warning 警告
-本文档适用于 WAuxiliary v1.2.5 版本
+本文档适用于 WAuxiliary v1.2.6 版本
 :::
 
 ## 消息结构
