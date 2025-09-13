@@ -54,17 +54,17 @@ features:
     details: 触发[收到被拍消息], 结果[艾特发出 `干啥子`]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/AutoReplyPat
 
-  - title: 进退群提醒@hd
-    details: 监听群成员变动时自动发送对应内容
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/JoinAndLeftGroupTips
-
   - title: 智能聊天@hd
     details: 需修改API域名,路径,密钥,模型,好友wxid等参数, 监听收到消息时自动聊天
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/OpenAiChat
 
-  - title: 进群邀请@hd
-    details: 监听私聊收到[进群]时自动发送群聊邀请(需修改群聊wxid)
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/JoinGroupInvite
+  - title: 进退群提醒@hd
+    details: 监听群成员变动时自动发送对应内容
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/JoinAndLeftGroupTips
+
+  - title: 进群邀请@Hd
+    details: 配置[群聊Id], 命令[进群], 触发[收到私聊消息], 结果[发出群聊邀请]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/JoinGroupInvite
 
   - title: 自动同意好友@hd
     details: 监听收到好友申请时自动通过
