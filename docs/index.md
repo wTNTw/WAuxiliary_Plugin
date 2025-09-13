@@ -26,6 +26,10 @@ features:
     details: 命令[/视频], 触发[收到消息], 结果[发出视频]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/VideoPlugin
 
+  - title: 摸头插件@Hd
+    details: 命令[/rua], 触发[引用消息], 结果[发出摸头GIF]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/Avatar-rua
+
   - title: 自动回复@hd
     details: 监听收到文本消息时自动回复对应内容
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/AutoReply
@@ -61,10 +65,6 @@ features:
   - title: 自动同意好友@hd
     details: 监听收到好友申请时自动通过
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/AutoAgreeFriend
-
-  - title: 摸头@hd
-    details: 命令[/rua]引用他人消息, 即可生成摸头GIF并发送
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/Avatar-rua
 
   - title: 语录@hd
     details: 命令[/q]引用他人消息, 即可生成语录图并发送
