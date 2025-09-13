@@ -6,9 +6,9 @@ hero:
   text: "WAuxiliary 插件"
 
 features:
-  - title: 示例插件@hd
-    details: 监听长按发送按钮, 发送 Hello World 文本
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/DemoPlugin
+  - title: [0913]示例插件@Hd
+    details: 命令[echo], 触发[长按发送按钮], 结果[发送 Hello World 文本]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/DemoPlugin
 
   - title: 文转音@hd
     details: 命令[#tts 你好], 长按发送按钮将文本转语音发出
