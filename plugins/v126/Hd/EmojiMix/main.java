@@ -16,7 +16,7 @@ void onHandleMsg(Object msgInfoBean) {
             if (emojis.length == 2) {
                 String emoji1 = emojis[0].trim();
                 String emoji2 = emojis[1].trim();
-                String api = "https://api.317ak.com/API/yljk/emo/emo.php?emoji1=" + emoji1 + "&emoji2=" + emoji2;
+                String api = "https://sbtxqq.com/api/emojimix.php?emoji1=" + emoji1 + "&emoji2=" + emoji2;
                 get(api, null, new PluginCallBack.HttpCallback() {
                     public void onSuccess(int respCode, String respContent) {
                         JSONObject jsonObject = JSON.parseObject(respContent);
@@ -31,16 +31,16 @@ void onHandleMsg(Object msgInfoBean) {
                                 }
 
                                 public void onError(Exception e) {
-                                    sendText(talker, "[倾梦API]下载异常:" + e.getMessage());
+                                    sendText(talker, "[晴天API]下载异常:" + e.getMessage());
                                 }
                             });
                         } else {
-                            sendText(talker, "[倾梦API]生成失败:" + JSONPath.eval(jsonObject, "$.text"));
+                            sendText(talker, "[晴天API]生成失败:" + JSONPath.eval(jsonObject, "$.text"));
                         }
                     }
 
                     public void onError(Exception e) {
-                        sendText(talker, "[倾梦API]生成异常:" + e.getMessage());
+                        sendText(talker, "[晴天API]生成异常:" + e.getMessage());
                     }
                 });
             }

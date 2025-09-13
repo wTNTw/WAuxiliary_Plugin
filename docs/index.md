@@ -34,9 +34,13 @@ features:
     details: 命令[/rua], 触发[引用消息], 结果[发出摸头GIF]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/Avatar-rua
 
-  - title: 语录插件@hd
+  - title: 语录插件@Hd
     details: 命令[/q], 触发[引用消息], 结果[发出语录图]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/msg-q
+
+  - title: 表情合成@Hd
+    details: 命令[系统表情1+系统表情2], 触发[收到消息], 结果[发出新表情]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/EmojiMix
 
   - title: 自动回复@hd
     details: 监听收到文本消息时自动回复对应内容
@@ -57,10 +61,6 @@ features:
   - title: 智能聊天@hd
     details: 需修改API域名,路径,密钥,模型,好友wxid等参数, 监听收到消息时自动聊天
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/OpenAiChat
-
-  - title: 表情合成@hd
-    details: 监听收到[系统表情1+系统表情2]时自动合成新表情并发送
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/EmojiMix
 
   - title: 进群邀请@hd
     details: 监听私聊收到[进群]时自动发送群聊邀请(需修改群聊wxid)
