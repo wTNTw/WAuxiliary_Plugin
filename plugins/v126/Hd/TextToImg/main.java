@@ -33,15 +33,15 @@ void sendTextImg(String title, String subTitle) {
 
     paint.setColor(Color.parseColor("#F79817"));
     RectF rect = new RectF(
-            padding + titleWidth * 1.1f,
-            yOffset - textSize,
-            padding * 1.5f + titleWidth + subTitleWidth,
-            yOffset + textSize * 0.3f
+            (float) (padding + titleWidth * 1.1f),
+            (float) (yOffset - textSize),
+            (float) (padding * 1.5f + titleWidth + subTitleWidth),
+            (float) (yOffset + textSize * 0.3f)
     );
     canvas.drawRoundRect(rect, 5, 5, paint);
 
     paint.setColor(Color.BLACK);
-    canvas.drawText(subTitle, padding + titleWidth * 1.15f, yOffset, paint);
+    canvas.drawText(subTitle, (float) (padding + titleWidth * 1.15f), yOffset, paint);
     try {
         String path = cacheDir + "/image.png";
         FileOutputStream out = new FileOutputStream(path);

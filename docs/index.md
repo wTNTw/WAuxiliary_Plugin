@@ -14,6 +14,10 @@ features:
     details: 配置[音色, 密钥], 命令[#tts 你好], 触发[长按发送按钮], 结果[发出语音]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/TextToSpeech
 
+  - title: 文转图@hd
+    details: 命令[/作图 你好 世界], 触发[长按发送按钮], 结果[发出图片]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/TextToImg
+
   - title: 点歌插件@hd
     details: 命令[/点歌 海阔天空], 触发[收到消息], 结果[发出歌曲卡片]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/MusicPlugin
@@ -41,10 +45,6 @@ features:
   - title: 被拍自动回复@hd
     details: 监听到被拍头时自动回复对应内容
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/PatAutoReply
-
-  - title: 文转图@hd
-    details: 命令[/作图 你好 世界], 长按发送按钮将文本转图片发出
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/TextToImg
 
   - title: 智能聊天@hd
     details: 需修改API域名,路径,密钥,模型,好友wxid等参数, 监听收到消息时自动聊天
