@@ -30,6 +30,10 @@ features:
     details: 命令[/rua], 触发[引用消息], 结果[发出摸头GIF]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/Avatar-rua
 
+  - title: 语录插件@hd
+    details: 命令[/q], 触发[引用消息], 结果[发出语录图]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/msg-q
+
   - title: 自动回复@hd
     details: 监听收到文本消息时自动回复对应内容
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/AutoReply
@@ -65,10 +69,6 @@ features:
   - title: 自动同意好友@hd
     details: 监听收到好友申请时自动通过
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/AutoAgreeFriend
-
-  - title: 语录@hd
-    details: 命令[/q]引用他人消息, 即可生成语录图并发送
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/msg-q
 
   - title: 文生图@CkBcDD
     details: 命令[/作图 Corn Hub], 长按发送按钮生成并发送图片
