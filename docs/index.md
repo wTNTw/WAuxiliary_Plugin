@@ -42,9 +42,9 @@ features:
     details: 命令[系统表情1+系统表情2], 触发[收到消息], 结果[发出新表情]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/EmojiMix
 
-  - title: 自动回复@hd
-    details: 监听收到文本消息时自动回复对应内容
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/AutoReply
+  - title: 自动回复@Hd
+    details: 命令[在吗/想我吗/爱我吗], 触发[收到消息], 结果[发出回复内容]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/AutoReply
 
   - title: 自动回复艾特@hd
     details: 监听收到艾特消息时自动艾特询问干嘛
