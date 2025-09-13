@@ -8,128 +8,128 @@ hero:
 features:
   - title: 示例插件@hd
     details: 监听长按发送按钮, 发送 Hello World 文本
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/hd/DemoPlugin
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/DemoPlugin
 
   - title: 文转音@hd
     details: 命令[#tts 你好], 长按发送按钮将文本转语音发出
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/hd/TextToSpeech
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/TextToSpeech
 
   - title: 点歌插件@hd
     details: 命令[/点歌 你好], 监听收到消息时自动发送歌曲卡片
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/hd/MusicPlugin
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/MusicPlugin
 
   - title: 视频插件@hd
     details: 命令[/视频], 监听收到消息时自动发送视频
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/hd/VideoPlugin
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/VideoPlugin
 
   - title: 自动回复@hd
     details: 监听收到文本消息时自动回复对应内容
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/hd/AutoReply
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/AutoReply
 
   - title: 自动回复艾特@hd
     details: 监听收到艾特消息时自动艾特询问干嘛
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/hd/AutoReplyAt
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/AutoReplyAt
 
   - title: 历史今天@hd
     details: 命令[/历史今天], 监听收到消息时自动发送历史今天图片
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/hd/HistoryToday
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/HistoryToday
 
   - title: 进退群提醒@hd
     details: 监听群成员变动时自动发送对应内容
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/hd/JoinAndLeftGroupTips
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/JoinAndLeftGroupTips
 
   - title: 被拍自动回复@hd
     details: 监听到被拍头时自动回复对应内容
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/hd/PatAutoReply
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/PatAutoReply
 
   - title: 文转图@hd
     details: 命令[/作图 你好 世界], 长按发送按钮将文本转图片发出
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/hd/TextToImg
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/TextToImg
 
   - title: 智能聊天@hd
     details: 需修改API域名,路径,密钥,模型,好友wxid等参数, 监听收到消息时自动聊天
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/hd/OpenAiChat
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/OpenAiChat
 
   - title: 表情合成@hd
     details: 监听收到[系统表情1+系统表情2]时自动合成新表情并发送
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/hd/EmojiMix
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/EmojiMix
 
   - title: 进群邀请@hd
     details: 监听私聊收到[进群]时自动发送群聊邀请(需修改群聊wxid)
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/hd/JoinGroupInvite
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/JoinGroupInvite
 
   - title: 自动同意好友@hd
     details: 监听收到好友申请时自动通过
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/hd/AutoAgreeFriend
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/AutoAgreeFriend
 
   - title: 摸头@hd
     details: 命令[/rua]引用他人消息, 即可生成摸头GIF并发送
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/hd/Avatar-rua
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/Avatar-rua
 
   - title: 语录@hd
     details: 命令[/q]引用他人消息, 即可生成语录图并发送
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/hd/msg-q
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/hd/msg-q
 
   - title: 文生图@CkBcDD
     details: 命令[/作图 Corn Hub], 长按发送按钮生成并发送图片
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/CkBcDD/TXT-to-IMG
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/CkBcDD/TXT-to-IMG
 
   - title: 群投票@CkBcDD
     details: 命令[/投票 标题 选项1 选项2 ……], 监听消息发送，其他群成员发送数字[1, 2, etc.]选择。发送[/结束投票]以结算。
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/CkBcDD/Group-Poll
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/CkBcDD/Group-Poll
 
   - title: 点歌@CkBcDD
     details: 命令[/点歌 Never Gonna Give You Up], 监听收到消息时自动发送歌曲卡片
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/CkBcDD/Fetch-Music
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/CkBcDD/Fetch-Music
 
   - title: 看看腿@yfishyon
     details: 输入框输入[黑丝]/[白丝], 长按发送看看腿
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/yfishyon/sese
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/yfishyon/sese
 
   - title: 龙图@yfishyon
     details: 输入框输入[龙图], 长按发送成为龙王
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/yfishyon/long
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/yfishyon/long
 
   - title: 举牌@周芷越
     details: 输入框输入[举牌 内容], 生成举牌
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/周芷越/jupai
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/周芷越/jupai
 
   - title: 表情合成@Kyo
     details: 监听收到[系统表情1+系统表情2]时自动合成新表情并发送(使用emojik.vercel.app)
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/Kyo/EmojiKitchen
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/Kyo/EmojiKitchen
 
   - title: Http主动发送@icksky
     details: 通过 http 请求主动发送消息 `curl -X POST 'http://0.0.0.0:13333' --data '{"ids":["wxid1","wxid2"],"msg":"HelloWorld"}' --location`
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/icksky/HttpSend
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/icksky/HttpSend
 
   - title: DeepSeek多角色智能体@icksky
     details: 监听收到消息时通过DeepSeek AI自动聊天(需修改密钥)，不同的群和好友可设置不同的角色。选定对应对话框输入“角色设定：你是一个逗逼”(不含引号)，长按发送按钮即可设定，重复设定可更新角色
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/icksky/DeepSeek
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/icksky/DeepSeek
 
   - title: 抖音视频解析下载@coderpwh
     details: 监听消息，或者长按发送按钮，解析抖音视频(图文)链接并下载发送
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/coderpwh/douyin
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/coderpwh/douyin
 
   - title: 微信自动管理@C3604
     details: 自动添加好友，自动拉群，群管
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/C3604/WeChatAutoManager
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/C3604/WeChatAutoManager
 
   - title: AiChatbot@Aden
     details: 群聊艾特回复，私聊检测Bot回复，输入重置长按发送可清空记忆
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/Aden/AiChatbot
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/Aden/AiChatbot
 
   - title: 自动回复@yixin
     details: 在任意聊天输入框输入「自动回复 XXXX」后，长按发送按钮即可开启，注意自动回复后面有空格
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/yixin/AutoReply
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/yixin/AutoReply
 
   - title: 自动增加步数@yixin
     details: 每次收发消息时自动增加微信步数
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/yixin/StepChange
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/yixin/StepChange
 
   - title: 定时发送助手@冰块
     details: 支持设置文字/图片/视频/朋友圈图文的定时与循环发送，到点自动触发前台并可顺延执行
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/冰块/定时发送助手
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/冰块/定时发送助手
 
   - title: 艾特关键词自动回复@冰块
     details: 支持群聊私聊艾特和关键词自动回复，可配置文本/语音/图片/视频文件。长按发送（回复设置）触发
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/冰块/艾特关键词自动回复
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/冰块/艾特关键词自动回复
