@@ -1,11 +1,13 @@
 import org.json.JSONObject;
+
 import java.io.File;
+
 import me.hd.wauxv.plugin.api.callback.PluginCallBack;
 
 boolean onLongClickSendBtn(String text) {
     String apiUrl = null;
     String fileName = null;
-    
+
     if ("黑丝".equals(text)) {
         apiUrl = "https://api.yujn.cn/api/heisi.php?type=json";
         fileName = "heisi.jpg";
@@ -15,31 +17,32 @@ boolean onLongClickSendBtn(String text) {
     } else {
         return false;
     }
-    
+
     final String finalFileName = fileName;
-    
+
     get(apiUrl, null, new PluginCallBack.HttpCallback() {
         public void onSuccess(int respCode, String respContent) {
             JSONObject json = new JSONObject(respContent);
-            String code = json.getString("code");
-            if (code.equals("1")) {
+            int code = json.getInt("code");
+            if (code = 1) {
                 String url = json.getString("img");
-                download(url, pluginDir + "/" + finalFileName, null, new PluginCallBack.DownloadCallback() {
+                download(url, cacheDir + "/" + finalFileName, null, new PluginCallBack.DownloadCallback() {
                     public void onSuccess(File file) {
                         sendImage(getTargetTalker(), file.getAbsolutePath(), "wxe3ad19e142df87b3");
+                        file.delete();
                     }
 
                     public void onError(Exception e) {
-                        sendText(getTargetTalker(), "下载异常:" + e.getMessage());
+                        sendText(getTargetTalker(), "看看腿下载异常:" + e.getMessage());
                     }
                 });
             }
         }
 
         public void onError(Exception e) {
-            sendText(getTargetTalker(), "API错误:" + e.getMessage());
+            sendText(getTargetTalker(), "看看腿API错误:" + e.getMessage());
         }
     });
-    
+
     return true;
 }

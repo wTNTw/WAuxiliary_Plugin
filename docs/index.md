@@ -83,8 +83,8 @@ features:
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/CkBcDD/Fetch-Music
 
   - title: 看看腿@yfishyon
-    details: 输入框输入[黑丝]/[白丝], 长按发送看看腿
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/yfishyon/sese
+    details: 命令[黑丝/白丝], 触发[长按发送按钮], 结果[看看腿]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/yfishyon/sese
 
   - title: 龙图@yfishyon
     details: 命令[龙图], 触发[长按发送按钮], 结果[成为龙王]
