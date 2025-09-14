@@ -91,8 +91,8 @@ features:
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/yfishyon/long
 
   - title: 举牌@周芷越
-    details: 输入框输入[举牌 内容], 生成举牌
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/周芷越/jupai
+    details: 命令[举牌 内容], 触发[长按发送按钮], 结果[发出举牌图片]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/周芷越/jupai
 
   - title: 表情合成@Kyo
     details: 监听收到[系统表情1+系统表情2]时自动合成新表情并发送(使用emojik.vercel.app)
