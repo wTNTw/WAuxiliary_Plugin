@@ -20,14 +20,14 @@ void sendToday(String talker) {
                     }
 
                     public void onError(Exception e) {
-                        sendText(getTargetTalker(), "[小小API]下载异常:" + e.getMessage());
+                        sendText(talker, "[小小API]下载异常:" + e.getMessage());
                     }
                 });
             }
         }
 
         public void onError(Exception e) {
-            sendText(getTargetTalker(), "[小小API]获取异常:" + e.getMessage());
+            sendText(talker, "[小小API]获取异常:" + e.getMessage());
         }
     });
 }
