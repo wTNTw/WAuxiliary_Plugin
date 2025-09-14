@@ -87,8 +87,8 @@ features:
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/yfishyon/sese
 
   - title: 龙图@yfishyon
-    details: 输入框输入[龙图], 长按发送成为龙王
-    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/yfishyon/long
+    details: 命令[龙图], 触发[长按发送按钮], 结果[成为龙王]
+    link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/yfishyon/long
 
   - title: 举牌@周芷越
     details: 命令[举牌 内容], 触发[长按发送按钮], 结果[发出举牌图片]
