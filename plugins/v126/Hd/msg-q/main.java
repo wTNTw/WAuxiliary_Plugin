@@ -95,10 +95,6 @@ void onHandleMsg(Object msgInfoBean) {
                         new File(avatarTmpPath).delete();
                         new File(messageTmpPath).delete();
                     }
-
-                    public void onError(Exception e) {
-                        sendText(talker, "下载头像异常:" + e.getMessage());
-                    }
                 });
             } else {
                 sendText(talker, "获取头像异常");

@@ -18,16 +18,8 @@ void sendToday(String talker) {
                         sendImage(talker, file.getAbsolutePath());
                         file.delete();
                     }
-
-                    public void onError(Exception e) {
-                        sendText(talker, "[小小API]下载异常:" + e.getMessage());
-                    }
                 });
             }
-        }
-
-        public void onError(Exception e) {
-            sendText(talker, "[小小API]获取异常:" + e.getMessage());
         }
     });
 }

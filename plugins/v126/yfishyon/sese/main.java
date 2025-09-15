@@ -31,16 +31,8 @@ boolean onLongClickSendBtn(String text) {
                         sendImage(getTargetTalker(), file.getAbsolutePath(), "wxe3ad19e142df87b3");
                         file.delete();
                     }
-
-                    public void onError(Exception e) {
-                        sendText(getTargetTalker(), "看看腿下载异常:" + e.getMessage());
-                    }
                 });
             }
-        }
-
-        public void onError(Exception e) {
-            sendText(getTargetTalker(), "看看腿API错误:" + e.getMessage());
         }
     });
 

@@ -32,10 +32,6 @@ boolean onLongClickSendBtn(String text) {
             sendImage(getTargetTalker(), file.getAbsolutePath(), "wxe3ad19e142df87b3");
             file.delete();
         }
-
-        public void onError(Exception e) {
-            sendText(getTargetTalker(), "举牌生成失败:" + e.getMessage());
-        }
     });
 
     return true;

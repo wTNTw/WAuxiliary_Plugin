@@ -18,10 +18,6 @@ void onHandleMsg(Object msgInfoBean) {
                         sendEmoji(talker, file.getAbsolutePath());
                         file.delete();
                     }
-            
-                    public void onError(Exception e) {
-                        sendText(talker, "[维梦API]生成异常:" + e.getMessage());
-                    }
                 });
             } else {
                 sendText(talker, "获取头像异常");

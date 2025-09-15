@@ -17,16 +17,8 @@ boolean onLongClickSendBtn(String text) {
                             sendEmoji(getTargetTalker(), file.getAbsolutePath());
                             file.delete();
                         }
-
-                        public void onError(Exception e) {
-                            sendText(getTargetTalker(), "龙图下载异常:" + e.getMessage());
-                        }
                     });
                 }
-            }
-
-            public void onError(Exception e) {
-                sendText(getTargetTalker(), "龙图API错误:" + e.getMessage());
             }
         });
         return true;

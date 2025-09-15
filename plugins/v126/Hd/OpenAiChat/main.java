@@ -62,10 +62,6 @@ void sendOpenAiResp(String talker, String content) {
                     addSystemMsg(msgContent);
                     sendText(talker, msgContent);
                 }
-
-                public void onError(Exception e) {
-                    sendText(talker, "[OpenAi Api]请求异常:" + e.getMessage());
-                }
             }
     );
 }

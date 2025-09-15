@@ -29,18 +29,10 @@ void onHandleMsg(Object msgInfoBean) {
                                     sendEmoji(talker, file.getAbsolutePath());
                                     file.delete();
                                 }
-
-                                public void onError(Exception e) {
-                                    sendText(talker, "[晴天API]下载异常:" + e.getMessage());
-                                }
                             });
                         } else {
                             sendText(talker, "[晴天API]生成失败:" + JSONPath.eval(jsonObject, "$.text"));
                         }
-                    }
-
-                    public void onError(Exception e) {
-                        sendText(talker, "[晴天API]生成异常:" + e.getMessage());
                     }
                 });
             }

@@ -24,17 +24,8 @@ void sendMusic(String talker, String title) {
                     shareMusic(talker, name, singer, link, url, thumbData, "wx8dd6ecd81906fd84");
                     file.delete();
                 }
-
-                public void onError(Exception e) {
-                    thumbData = null;
-                    shareMusic(talker, name, singer, link, url, thumbData, "wx8dd6ecd81906fd84");
-                }
             });
 
-        }
-
-        public void onError(Exception e) {
-            sendText(talker, "[落月API]点歌异常:" + e.getMessage());
         }
     });
 }

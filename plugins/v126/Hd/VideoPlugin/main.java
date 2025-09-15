@@ -10,10 +10,6 @@ void sendMp4(String talker) {
         public void onSuccess(File file) {
             sendVideo(talker, file.getAbsolutePath());
         }
-
-        public void onError(Exception e) {
-            sendText(talker, "下载异常:" + e.getMessage());
-        }
     });
 }
 

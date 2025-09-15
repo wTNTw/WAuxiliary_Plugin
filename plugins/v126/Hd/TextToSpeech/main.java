@@ -22,16 +22,8 @@ boolean onLongClickSendBtn(String text) {
                             sendVoice(getTargetTalker(), file.getAbsolutePath());
                             file.delete();
                         }
-
-                        public void onError(Exception e) {
-                            sendText(getTargetTalker(), "[轩心云API]下载异常:" + e.getMessage());
-                        }
                     });
                 }
-            }
-
-            public void onError(Exception e) {
-                sendText(getTargetTalker(), "[轩心云API]转换异常:" + e.getMessage());
             }
         });
         return true;
