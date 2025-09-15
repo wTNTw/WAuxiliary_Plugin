@@ -29,14 +29,14 @@ boolean isOpenGroup = true;
 
 void sendDouyinVideo(String talker, String douyinUrl) {
     try {
-//基于deno的抖音视频无水印下，项目开源地址:https://github.com/pwh-pwh/douyinVd 可fork本项目，自行到deno deploy,cf,vercel或者服务器部署
+        //基于deno的抖音视频无水印下，项目开源地址:https://github.com/pwh-pwh/douyinVd 可fork本项目，自行到deno deploy,cf,vercel或者服务器部署
         //https://cf.eval.qzz.io/
         //"https://douyinvd.deno.dev
         String apiUrl = "https://cf.eval.qzz.io/?data&url=" + douyinUrl;
-//        toast("要请求的地址"+apiUrl);
+        //toast("要请求的地址"+apiUrl);
         get(apiUrl, null, new PluginCallBack.HttpCallback() {
             public void onSuccess(int respCode, String respContent) {
-//                toast("请求返回结果:"+respContent);
+                //toast("请求返回结果:"+respContent);
 
                 JSONObject jsonObj = JSON.parseObject(respContent);
                 String vType = jsonObj.getString("type");
@@ -44,48 +44,41 @@ void sendDouyinVideo(String talker, String douyinUrl) {
 
                 String vUrl = jsonObj.getString("video_url");
                 String awemeId = jsonObj.getString("aweme_id");
-//                 sendText(talker, vUrl);
+                //sendText(talker, vUrl);
 
                 if (vType.equals("video")) {
-                    download(vUrl, cacheDir + "/" + awemeId + ".mp4", null, new PluginCallBack.DownloadCallback() {
-                        public void onSuccess(File file) {
-                            sendVideo(talker, file.getAbsolutePath());
-                        }
-
-                        public void onError(Exception e) {
-                            sendText(talker, "下载异常:" + e.getMessage());
-                        }
-                    });
+                    try {
+                        download(vUrl, cacheDir + "/" + awemeId + ".mp4", null, new PluginCallBack.DownloadCallback() {
+                            public void onSuccess(File file) {
+                                sendVideo(talker, file.getAbsolutePath());
+                            }
+                        });
+                    } catch (java.lang.Exception e) {
+                        sendText(talker, "下载异常:" + e.getMessage());
+                    }
                 } else {
                     toast("图文消息");
                     JSONArray imageUrlList = jsonObj.getJSONArray("image_url_list");
                     for (int i = 0; i < imageUrlList.size(); i++) {
-//                                                 toast(imageUrlList.getString(i));
+                        //toast(imageUrlList.getString(i));
 
-                        download(imageUrlList.getString(i), cacheDir + "/img" + i + ".jpg", null, new PluginCallBack.DownloadCallback() {
-                            public void onSuccess(File file) {
-                                sendImage(talker, file.getAbsolutePath());
-                            }
-
-                            public void onError(Exception e) {
-                                sendText(talker, "图文下载异常:" + e.getMessage());
-                            }
-                        });
-
+                        try {
+                            download(imageUrlList.getString(i), cacheDir + "/img" + i + ".jpg", null, new PluginCallBack.DownloadCallback() {
+                                public void onSuccess(File file) {
+                                    sendImage(talker, file.getAbsolutePath());
+                                }
+                            });
+                        } catch (java.lang.Exception e) {
+                            sendText(talker, "图文下载异常:" + e.getMessage());
+                        }
 
                     }
                 }
 
-
-            }
-
-
-            public void onError(Exception e) {
-                sendText(talker, "[抖音视频]请求解析异常:" + e.getMessage());
             }
         });
     } catch (Exception e) {
-
+        sendText(talker, "[抖音视频]请求解析异常:" + e.getMessage());
     }
 }
 
