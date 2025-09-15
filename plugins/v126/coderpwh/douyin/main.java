@@ -1,3 +1,4 @@
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.io.File;
@@ -46,7 +47,7 @@ void sendDouyinVideo(String talker, String douyinUrl) {
 //                 sendText(talker, vUrl);
 
                 if (vType.equals("video")) {
-                    download(vUrl, pluginDir + "/video.mp4", null, new PluginCallBack.DownloadCallback() {
+                    download(vUrl, cacheDir + "/video.mp4", null, new PluginCallBack.DownloadCallback() {
                         public void onSuccess(File file) {
                             sendVideo(talker, file.getAbsolutePath());
                         }
@@ -61,7 +62,7 @@ void sendDouyinVideo(String talker, String douyinUrl) {
                     for (int i = 0; i < imageUrlList.size(); i++) {
 //                                                 toast(imageUrlList.getString(i));
 
-                        download(imageUrlList.getString(i), pluginDir + "/img" + i + ".jpg", null, new PluginCallBack.DownloadCallback() {
+                        download(imageUrlList.getString(i), cacheDir + "/img" + i + ".jpg", null, new PluginCallBack.DownloadCallback() {
                             public void onSuccess(File file) {
                                 sendImage(talker, file.getAbsolutePath());
                             }
