@@ -10,10 +10,16 @@
 void eval(String code);
 ```
 
-## 导入
+## 导入Java
 
 ```java
-void load(String path);
+void loadJava(String path);
+```
+
+## 导入Dex
+
+```java
+void loadDex(String path);
 ```
 
 ## 日志
