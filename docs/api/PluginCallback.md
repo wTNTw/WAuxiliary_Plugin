@@ -22,10 +22,10 @@ void onUnLoad();
 void onHandleMsg(Object msgInfoBean);
 ```
 
-## 长按发送按钮
+## 单击发送按钮
 
 ```java
-boolean onLongClickSendBtn(String text);
+boolean onClickSendBtn(String text);
 ```
 
 ## 监听成员变动
