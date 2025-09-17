@@ -3,7 +3,7 @@ import java.util.Random;
 
 import me.hd.wauxv.plugin.api.callback.PluginCallBack;
 
-boolean onLongClickSendBtn(String text) {
+boolean onClickSendBtn(String text) {
     if (!text.startsWith("举牌 ")) {
         return false;
     }

@@ -95,7 +95,7 @@ void onHandleMsg(Object msgInfoBean) {
     }
 }
 
-boolean onLongClickSendBtn(String text) {
+boolean onClickSendBtn(String text) {
     Matcher matcher = pattern.matcher(text);
     if (matcher.find()) {
         sendDouyinVideo(getTargetTalker(), matcher.group());

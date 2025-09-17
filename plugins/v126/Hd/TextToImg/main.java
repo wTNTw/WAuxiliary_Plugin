@@ -53,7 +53,7 @@ void sendTextImg(String title, String subTitle) {
     }
 }
 
-boolean onLongClickSendBtn(String text) {
+boolean onClickSendBtn(String text) {
     if (text.startsWith("/作图 ")) {
         String str = text.substring(4);
         int index = str.indexOf(" ");

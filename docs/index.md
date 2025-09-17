@@ -7,15 +7,15 @@ hero:
 
 features:
   - title: 示例插件@Hd
-    details: 命令[echo], 触发[长按发送按钮], 结果[发出 `Hello World`]
+    details: 命令[echo], 触发[单击发送按钮], 结果[发出 `Hello World`]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/DemoPlugin
 
   - title: 文转音@Hd
-    details: 配置[音色, 密钥], 命令[#tts 你好], 触发[长按发送按钮], 结果[发出语音]
+    details: 配置[音色, 密钥], 命令[#tts 你好], 触发[单击发送按钮], 结果[发出语音]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/TextToSpeech
 
   - title: 文转图@Hd
-    details: 命令[/作图 你好 世界], 触发[长按发送按钮], 结果[发出图片]
+    details: 命令[/作图 你好 世界], 触发[单击发送按钮], 结果[发出图片]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/TextToImg
 
   - title: 点歌插件@Hd
@@ -83,15 +83,15 @@ features:
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/CkBcDD/Fetch-Music
 
   - title: 看看腿@yfishyon
-    details: 命令[黑丝/白丝], 触发[长按发送按钮], 结果[看看腿]
+    details: 命令[黑丝/白丝], 触发[单击发送按钮], 结果[看看腿]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/yfishyon/sese
 
   - title: 龙图@yfishyon
-    details: 命令[龙图], 触发[长按发送按钮], 结果[成为龙王]
+    details: 命令[龙图], 触发[单击发送按钮], 结果[成为龙王]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/yfishyon/long
 
   - title: 举牌@周芷越
-    details: 命令[举牌 内容], 触发[长按发送按钮], 结果[发出举牌图片]
+    details: 命令[举牌 内容], 触发[单击发送按钮], 结果[发出举牌图片]
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/周芷越/jupai
 
   - title: old_表情合成@Kyo
@@ -107,7 +107,7 @@ features:
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/old/icksky/DeepSeek
 
   - title: 抖音视频图文解析@coderpwh
-    details: 监听收到消息，或者长按发送按钮，解析抖音视频(图文)链接并下载后发送
+    details: 监听收到消息，或者单击发送按钮，解析抖音视频(图文)链接并下载后发送
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/coderpwh/douyin
 
   - title: old_微信自动管理@C3604

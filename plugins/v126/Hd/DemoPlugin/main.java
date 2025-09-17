@@ -1,5 +1,5 @@
 
-boolean onLongClickSendBtn(String text) {
+boolean onClickSendBtn(String text) {
     if (text.equals("echo")) {
         sendText(getTargetTalker(), "Hello World");
         return true;

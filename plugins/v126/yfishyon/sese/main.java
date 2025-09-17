@@ -4,7 +4,7 @@ import java.io.File;
 
 import me.hd.wauxv.plugin.api.callback.PluginCallBack;
 
-boolean onLongClickSendBtn(String text) {
+boolean onClickSendBtn(String text) {
     String apiUrl = null;
     String fileName = null;
 

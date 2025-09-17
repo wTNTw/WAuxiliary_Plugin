@@ -4,7 +4,7 @@ import java.io.File;
 
 import me.hd.wauxv.plugin.api.callback.PluginCallBack;
 
-boolean onLongClickSendBtn(String text) {
+boolean onClickSendBtn(String text) {
     if (text.startsWith("#tts ")) {
         String str = text.substring(5);
         String voice = "2"; // 音色
