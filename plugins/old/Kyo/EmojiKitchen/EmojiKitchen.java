@@ -6,7 +6,7 @@ void sendKitchen(String emoji1, String emoji2, String talker) {
     String url = "https://emojik.vercel.app/s/" + emoji1 + "_" + emoji2 + "?size=256";
     final String finalTalker = talker;
 
-    download(url, pluginDir + "/emoji.png", null, new PluginCallBack.DownloadCallback() {
+    download(url, cacheDir + "/emoji.png", null, new PluginCallBack.DownloadCallback() {
         public void onSuccess(File file) {
             sendEmoji(finalTalker, file.getAbsolutePath());
         }

@@ -21,7 +21,7 @@ void sendTextImg(String title, String subTitle) {
     final int SUBTITLE_BG_COLOR = Color.parseColor("#F79817");
     final int SUBTITLE_TEXT_COLOR = Color.BLACK;
     final int IMAGE_QUALITY = 100;
-    final String IMAGE_PATH = pluginDir + "/temp.png";
+    final String IMAGE_PATH = cacheDir + "/temp.png";
     final String APP_ID = "wxe3ad19e142df87b3";    // 麻豆约拍
     // ******************************
 
