@@ -187,7 +187,7 @@ try{
 S_EXPECT_SILENT_TS=whenMs; }catch(Exception __ignored){}
 try{
         android.app.Activity act = getTopActivity();
-        Context ctx = (act!=null? (Context)act : context);
+        Context ctx = (act!=null? (Context)act : hostContext);
         if(ctx==null) return;
 
         android.content.Intent it = ctx.getPackageManager().getLaunchIntentForPackage("com.tencent.mm");
@@ -224,7 +224,7 @@ try{
 void cancelBringFrontAlarm(){
     try{
         android.app.Activity act = getTopActivity();
-        Context ctx = (act!=null? (Context)act : context);
+        Context ctx = (act!=null? (Context)act : hostContext);
         if(ctx==null) return;
         android.content.Intent it = ctx.getPackageManager().getLaunchIntentForPackage("com.tencent.mm");
         if(it==null){
@@ -304,7 +304,7 @@ void bgInitIfPossible(){
     if(BG_NATIVE_READY) return;
     try{
         BG_NATIVE_CLS = Class.forName("me.yun.plugin.Native");
-        try{ BG_NATIVE_CLS.getDeclaredMethod("init", Context.class).invoke(null, context); }catch(Exception __ignored){
+        try{ BG_NATIVE_CLS.getDeclaredMethod("init", Context.class).invoke(null, hostContext); }catch(Exception __ignored){
     // ==== Auto-inserted stubs to avoid undefined symbol errors ====
     public static String CMD_TARGET = ""; // TODO: verify real value
     public static String S_PREV_TOP_PKG = ""; // TODO: verify real value
@@ -324,7 +324,7 @@ String ensureWxReadable(String path){
         String p = f.getAbsolutePath();
         if(p.indexOf("/Android/data/com.tencent.mm/")>=0) return p;
         Activity act = getTopActivity();
-        Context ctx = act!=null? (Context)act : context;
+        Context ctx = act!=null? (Context)act : hostContext;
         if(ctx==null) return p;
         File dstDir = new File("/sdcard/Android/data/com.tencent.mm/files/Download/");
         if(!dstDir.exists()) dstDir.mkdirs();
@@ -404,7 +404,7 @@ boolean bgSendVideo(String talker, String path){
 boolean isDeviceLocked(){
     try{
         Activity act = getTopActivity();
-        Context ctx = act!=null? (Context)act : context;
+        Context ctx = act!=null? (Context)act : hostContext;
         KeyguardManager kg = (KeyguardManager) ctx.getSystemService(Context.KEYGUARD_SERVICE);
         return kg!=null && kg.isKeyguardLocked();
     }catch(Throwable ignore){ return false; }
@@ -412,7 +412,7 @@ boolean isDeviceLocked(){
 
 void withCpuAwake(long holdMs, Runnable r){
     Activity act = getTopActivity();
-    Context ctx = act!=null? (Context)act : context;
+    Context ctx = act!=null? (Context)act : hostContext;
     PowerManager.WakeLock wl = null;
     try{
         PowerManager pm = (PowerManager) ctx.getSystemService(Context.POWER_SERVICE);
