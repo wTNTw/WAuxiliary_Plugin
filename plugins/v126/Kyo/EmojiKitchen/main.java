@@ -9,10 +9,7 @@ void sendKitchen(String emoji1, String emoji2, String talker) {
     download(url, cacheDir + "/emoji.png", null, new PluginCallBack.DownloadCallback() {
         public void onSuccess(File file) {
             sendEmoji(finalTalker, file.getAbsolutePath());
-        }
-
-        public void onError(Exception e) {
-            sendText(finalTalker, "[Emoji Kitchen] 下载失败: " + e.getMessage());
+            file.delete();
         }
     });
 }
