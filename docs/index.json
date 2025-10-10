@@ -1,6 +1,6 @@
 {
   "generatedAt": "2025-10-10",
-  "totalPlugins": 24,
+  "totalPlugins": 25,
   "plugins": [
     {
       "name": "表情合成",
@@ -17,6 +17,14 @@
       "updateTime": 20251010,
       "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/yixin/AutoReply",
       "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/yixin/AutoReply"
+    },
+    {
+      "name": "自动增加步数",
+      "author": "yixin",
+      "version": "1.0.0",
+      "updateTime": 20251010,
+      "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/yixin/StepChange",
+      "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/yixin/StepChange"
     },
     {
       "name": "自动增加步数",
