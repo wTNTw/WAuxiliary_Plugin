@@ -1,6 +1,6 @@
 {
   "generatedAt": "2025-10-10",
-  "totalPlugins": 26,
+  "totalPlugins": 35,
   "plugins": [
     {
       "name": "表情合成",
@@ -29,7 +29,7 @@
     {
       "name": "自动回复配置版",
       "author": "。。",
-      "version": 2,
+      "version": "2.0.0",
       "updateTime": 20251010,
       "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/。。/自动回复配置版",
       "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/。。/自动回复配置版"
@@ -209,6 +209,78 @@
       "updateTime": 20250917,
       "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/周芷越/jupai",
       "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/周芷越/jupai"
+    },
+    {
+      "name": "AiChatbot",
+      "author": "Aden",
+      "version": "1.0.0",
+      "updateTime": 20250830,
+      "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Aden/AiChatbot",
+      "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Aden/AiChatbot"
+    },
+    {
+      "name": "定时发送助手",
+      "author": "冰块",
+      "version": "1.0.0",
+      "updateTime": 20250825,
+      "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/冰块/定时发送助手",
+      "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/冰块/定时发送助手"
+    },
+    {
+      "name": "艾特关键词自动回复",
+      "author": "冰块",
+      "version": "1.0.0",
+      "updateTime": 20250825,
+      "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/冰块/艾特关键词自动回复",
+      "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/冰块/艾特关键词自动回复"
+    },
+    {
+      "name": "Http主动发送",
+      "author": "icksky",
+      "version": "1.0.0",
+      "updateTime": 20250712,
+      "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/icksky/HttpSend",
+      "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/icksky/HttpSend"
+    },
+    {
+      "name": "DeepSeek多角色智能体",
+      "author": "icksky",
+      "version": "1.0.0",
+      "updateTime": 20250711,
+      "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/icksky/DeepSeek",
+      "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/icksky/DeepSeek"
+    },
+    {
+      "name": "微信自动管理",
+      "author": "C3604",
+      "version": "1.0.0",
+      "updateTime": 20250621,
+      "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/C3604/WeChatAutoManager",
+      "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/C3604/WeChatAutoManager"
+    },
+    {
+      "name": "点歌",
+      "author": "CkBcDD",
+      "version": "1.0.0",
+      "updateTime": 20250523,
+      "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/CkBcDD/Fetch-Music",
+      "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/CkBcDD/Fetch-Music"
+    },
+    {
+      "name": "群投票",
+      "author": "CkBcDD",
+      "version": "1.0.0",
+      "updateTime": 20250523,
+      "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/CkBcDD/Group-Poll",
+      "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/CkBcDD/Group-Poll"
+    },
+    {
+      "name": "文生图",
+      "author": "CkBcDD",
+      "version": "1.0.0",
+      "updateTime": 20250520,
+      "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/CkBcDD/TXT-to-IMG",
+      "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/CkBcDD/TXT-to-IMG"
     }
   ]
 }
