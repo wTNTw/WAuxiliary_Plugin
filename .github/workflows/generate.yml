@@ -26,17 +26,17 @@ jobs:
           node-version: 20
           cache: npm
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
           npm ci
           npm install properties-reader
 
-      - name: Generate plugins
+      - name: Generate Plugins
         run: |
           node .github/workflows/generate.js
           echo "Plugins generated"
 
-      - name: Commit generated docs
+      - name: Commit Generated
         if: success()
         run: |
           git config --local user.name "github-actions[bot]"
