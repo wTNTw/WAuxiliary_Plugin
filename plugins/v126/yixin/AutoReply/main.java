@@ -1,11 +1,5 @@
-import org.json.JSONArray;
-import org.json.JSONObject;
 
 import me.hd.wauxv.plugin.api.callback.PluginCallBack;
-
-/// 自动回复插件：
-/// 在任意聊天输入框输入「自动回复 XXXX」后，长按发送按钮即可开启，注意自动回复后面有空格
-/// 输入其他任意内容后长按发送按钮即可关闭
 
 String autoReplyContent = "";
 
