@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -51,7 +51,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No documentation changes to commit"
           else
-            git commit -m "docs: auto-generate plugin documentation [skip ci]"
+            git commit -m "文档: 自动构建插件列表文档 [skip ci]"
             git push
           fi
 
