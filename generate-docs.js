@@ -3,7 +3,9 @@ const path = require('path');
 const propReader = require('properties-reader');
 
 const pluginsDir = path.join(__dirname, 'plugins', 'v126');
-const outputFile = path.join(__dirname, 'docs', 'index.md');
+const docsDir = path.join(__dirname, 'docs');
+const outputMdFile = path.join(docsDir, 'index.md');
+const outputJsonFile = path.join(docsDir, 'index.json');
 
 function isValidPlugin(pluginPath) {
     try {
@@ -35,12 +37,15 @@ function parseInfoProp(filePath) {
 
 function getPluginInfo(pluginPath) {
     const rel = path.relative(__dirname, pluginPath).replace(/\\/g, '/');
+    const homeLink = `https://github.com/HdShare/WAuxiliary_Plugin/tree/main/${rel}`;
     const props = parseInfoProp(path.join(pluginPath, 'info.prop'));
     return {
-        title: `${props.name}@${props.author}`,
-        details: `版本 ${props.version} | 更新于 ${props.updateTime}`,
-        link: `https://github.com/HdShare/WAuxiliary_Plugin/tree/main/${rel}`,
-        rawProps: props,
+        name: props.name,
+        author: props.author,
+        version: props.version,
+        updateTime: props.updateTime,
+        homeLink: homeLink,
+        downloadUrl: `https://minhaskamal.github.io/DownGit/#/home?url=${homeLink}`,
     };
 }
 
@@ -57,8 +62,8 @@ function traversePlugins(pluginDir) {
             .filter(Boolean);
     });
     return plugins.sort((a, b) => {
-        const timeA = parseInt(a.rawProps.updateTime);
-        const timeB = parseInt(b.rawProps.updateTime);
+        const timeA = parseInt(a.updateTime);
+        const timeB = parseInt(b.updateTime);
         return timeB - timeA;
     });
 }
@@ -66,12 +71,34 @@ function traversePlugins(pluginDir) {
 function generateMarkdown(plugins) {
     let md = `---\nlayout: home\n\nhero:\n  name: "WAuxiliary Plugin"\n  text: "WAuxiliary 插件"\n\nfeatures:\n`;
     plugins.forEach(plugin => {
-        md += `  - title: ${plugin.title}\n    details: ${plugin.details}\n    link: ${plugin.link}\n\n`;
+        md += `  - title: ${plugin.name}@${plugin.author}\n    details: 版本 ${plugin.version} | 更新于 ${plugin.updateTime}\n    link: ${plugin.downloadUrl}\n\n`;
     });
     return md;
 }
 
+function generateJSON(plugins) {
+    const jsonData = {
+        generatedAt: new Date().toISOString().split('T')[0],
+        totalPlugins: plugins.length,
+        plugins: plugins.map(plugin => ({
+            name: plugin.name,
+            author: plugin.author,
+            version: plugin.version,
+            updateTime: plugin.updateTime,
+            homeLink: plugin.homeLink,
+            downloadUrl: plugin.downloadUrl,
+        }))
+    };
+    return JSON.stringify(jsonData, null, 2);
+}
+
 const plugins = traversePlugins(pluginsDir);
+console.log(`正在处理 ${plugins.length} 个插件`);
+
 const markdown = generateMarkdown(plugins);
-fs.writeFileSync(outputFile, markdown, 'utf8');
-console.log('docs/index.md 已自动生成');
+fs.writeFileSync(outputMdFile, markdown, 'utf8');
+console.log(`已自动生成 ${outputMdFile}`);
+
+const jsonData = generateJSON(plugins);
+fs.writeFileSync(outputJsonFile, jsonData, 'utf8');
+console.log(`已自动生成 ${outputJsonFile}`);
