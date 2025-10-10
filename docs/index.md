@@ -18,6 +18,10 @@ features:
     details: 版本 1.0.0 | 更新于 20251010
     link: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/yixin/StepChange
 
+  - title: 自动回复配置版@。。
+    details: 版本 2 | 更新于 20251010
+    link: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/。。/自动回复配置版
+
   - title: 自动增加步数@Wukon
     details: 版本 1.0.4 | 更新于 20251006
     link: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Wukon/AutoStep
