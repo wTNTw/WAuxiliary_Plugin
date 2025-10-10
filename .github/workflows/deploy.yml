@@ -51,7 +51,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No documentation changes to commit"
           else
-            git commit -m "文档: 自动构建插件列表文档 [skip ci]"
+            git commit -m "文档: 自动构建插件列表文档"
             git push
           fi
 
