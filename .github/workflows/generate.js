@@ -2,8 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const propReader = require('properties-reader');
 
-const pluginsDir = path.join(__dirname, 'plugins', 'v126');
-const docsDir = path.join(__dirname, 'docs');
+const repoRoot = process.cwd();
+const pluginsDir = path.join(repoRoot, 'plugins', 'v126');
+const docsDir = path.join(repoRoot, 'docs');
 const outputMdFile = path.join(docsDir, 'index.md');
 const outputJsonFile = path.join(docsDir, 'index.json');
 
@@ -36,7 +37,7 @@ function parseInfoProp(filePath) {
 }
 
 function getPluginInfo(pluginPath) {
-    const rel = path.relative(__dirname, pluginPath).replace(/\\/g, '/');
+    const rel = path.relative(repoRoot, pluginPath).replace(/\\/g, '/');
     const homeLink = `https://github.com/HdShare/WAuxiliary_Plugin/tree/main/${rel}`;
     const props = parseInfoProp(path.join(pluginPath, 'info.prop'));
     return {
