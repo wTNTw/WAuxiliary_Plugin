@@ -1,10 +1,6 @@
 import java.time.LocalDateTime;
 import java.util.Random;
 
-/// 每次收发消息时自动增加微信步数
-/// 增长幅度有三个等级，简而言之，步数越高，增长幅度会越小
-/// ！和当天实际微信步数无关；如果当天实际步数大于插件增加的步数，会以实际步数为准
-
 long maxStep = 57305; //最大步數
 long currentStep = 0; //當前步數
 int currentDay = 0;
