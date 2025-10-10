@@ -139,5 +139,5 @@ features:
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/vhukze/AIImg
 
   - title: 自动增加步数@Wukon
-    details: 版本1.0.0 | 更新于20251006
+    details: 版本1.0.4 | 更新于20251006
     link: https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Wukon/AutoStep
