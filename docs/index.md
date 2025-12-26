@@ -7,7 +7,7 @@ hero:
 
 features:
   - title: 自动收款@。。
-    details: 版本 1.0.0 | 更新于 20251218
+    details: 版本 1.1.0 | 更新于 20251226
     link: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/。。/自动收款
 
   - title: 音频转换@。。
