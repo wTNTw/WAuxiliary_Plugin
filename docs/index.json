@@ -1,7 +1,23 @@
 {
-  "generatedAt": "2026-02-23",
-  "totalPlugins": 39,
+  "generatedAt": "2026-02-24",
+  "totalPlugins": 41,
   "plugins": [
+    {
+      "name": "统计",
+      "author": "轻乳",
+      "version": "1.0.0",
+      "updateTime": 20260222,
+      "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/轻乳/统计累计收到消息",
+      "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/轻乳/统计累计收到消息"
+    },
+    {
+      "name": "记事本",
+      "author": "轻乳",
+      "version": "1.0.0",
+      "updateTime": 20260222,
+      "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/轻乳/记事本插件",
+      "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/轻乳/记事本插件"
+    },
     {
       "name": "自动收款",
       "author": "。。",

@@ -6,6 +6,14 @@ hero:
   text: "WAuxiliary 插件"
 
 features:
+  - title: 统计@轻乳
+    details: 版本 1.0.0 | 更新于 20260222
+    link: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/轻乳/统计累计收到消息
+
+  - title: 记事本@轻乳
+    details: 版本 1.0.0 | 更新于 20260222
+    link: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/轻乳/记事本插件
+
   - title: 自动收款@。。
     details: 版本 1.1.0 | 更新于 20251226
     link: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/。。/自动收款
