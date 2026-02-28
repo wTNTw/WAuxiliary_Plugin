@@ -23,7 +23,7 @@ features:
     link: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/。。/音频转换
 
   - title: 自动增加步数@Wukon
-    details: 版本 1.0.5 | 更新于 20251211
+    details: 版本 1.0.6 | 更新于 20260228
     link: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Wukon/AutoStep
 
   - title: AI作图@vhukze
