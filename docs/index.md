@@ -74,10 +74,6 @@ features:
     details: 版本 1.0.0 | 更新于 20250917
     link: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/Avatar-rua
 
-  - title: 示例插件@Hd
-    details: 版本 1.0.0 | 更新于 20250917
-    link: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/DemoPlugin
-
   - title: 表情合成@Hd
     details: 版本 1.0.0 | 更新于 20250917
     link: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/EmojiMix

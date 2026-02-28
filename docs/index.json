@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-02-24",
-  "totalPlugins": 41,
+  "generatedAt": "2026-02-28",
+  "totalPlugins": 40,
   "plugins": [
     {
       "name": "统计",
@@ -137,14 +137,6 @@
       "updateTime": 20250917,
       "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/Avatar-rua",
       "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/Avatar-rua"
-    },
-    {
-      "name": "示例插件",
-      "author": "Hd",
-      "version": "1.0.0",
-      "updateTime": 20250917,
-      "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/DemoPlugin",
-      "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Hd/DemoPlugin"
     },
     {
       "name": "表情合成",
