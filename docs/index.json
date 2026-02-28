@@ -3,6 +3,14 @@
   "totalPlugins": 40,
   "plugins": [
     {
+      "name": "自动增加步数",
+      "author": "Wukon",
+      "version": "1.0.6",
+      "updateTime": 20260228,
+      "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Wukon/AutoStep",
+      "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Wukon/AutoStep"
+    },
+    {
       "name": "统计",
       "author": "轻乳",
       "version": "1.0.0",
@@ -33,14 +41,6 @@
       "updateTime": 20251218,
       "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/。。/音频转换",
       "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/。。/音频转换"
-    },
-    {
-      "name": "自动增加步数",
-      "author": "Wukon",
-      "version": "1.0.6",
-      "updateTime": 20260228,
-      "homeLink": "https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Wukon/AutoStep",
-      "downloadUrl": "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Wukon/AutoStep"
     },
     {
       "name": "AI作图",

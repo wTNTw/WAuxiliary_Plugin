@@ -6,6 +6,10 @@ hero:
   text: "WAuxiliary 插件"
 
 features:
+  - title: 自动增加步数@Wukon
+    details: 版本 1.0.6 | 更新于 20260228
+    link: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Wukon/AutoStep
+
   - title: 统计@轻乳
     details: 版本 1.0.0 | 更新于 20260222
     link: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/轻乳/统计累计收到消息
@@ -21,10 +25,6 @@ features:
   - title: 音频转换@。。
     details: 版本 1.0.0 | 更新于 20251218
     link: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/。。/音频转换
-
-  - title: 自动增加步数@Wukon
-    details: 版本 1.0.6 | 更新于 20260228
-    link: https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/HdShare/WAuxiliary_Plugin/tree/main/plugins/v126/Wukon/AutoStep
 
   - title: AI作图@vhukze
     details: 版本 1.5.0 | 更新于 20251013
